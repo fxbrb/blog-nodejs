@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 module.exports = async function () {
-    await mongoose.connect('mongodb://localhost/my_database', {
+    await mongoose.connect('mongodb://localhost/blog', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useFindAndModify: false,

@@ -1,27 +1,33 @@
 {
-  "name": "blog-nodejs-iim",
+  "name": "blog-nodejs",
   "version": "1.0.0",
-  "description": "Un blog avec nodejs",
+  "description": "BLOG",
   "main": "src/app.js",
   "scripts": {
     "dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kazdan1994/blog-nodejs-iim.git"
+    "url": "git+https://github.com/fxbrb/blog-nodejs.git"
   },
   "author": "Arthur Jacquemin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kazdan1994/blog-nodejs-iim/issues"
+    "url": "https://github.com/fxbrb/blog-nodejs/issues"
   },
-  "homepage": "https://github.com/Kazdan1994/blog-nodejs-iim#readme",
+  "homepage": "https://github.com/fxbrb/blog-nodejs/issues#readme",
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "mongoose": "^5.10.7"
+    "mongoose": "^5.10.7",
+    "slug": "^3.3.5"
   },
   "devDependencies": {
+    "faker": "^5.1.0",
+    "mongoose-data-seed": "^2.1.6",
     "nodemon": "^2.0.4"
+  },
+  "mdSeed": {
+    "seedersFolder": "./src/db/seed"
   }
 }
